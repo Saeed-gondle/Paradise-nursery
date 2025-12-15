@@ -7,7 +7,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Paradise-nursery/">
       <div className="app">
         <Routes>
           <Route path="/" element={<LandingPage />} />
